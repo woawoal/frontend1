@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        ul{
+            list-style-type: none;
+        }
+        a{
+            text-decoration: none;
+            color:#333;
+        }
+        #bottom-menu{
+            width:1200px;
+            height:100px;
+            background-color: aqua;
+            margin:0 auto;
+        }
+        ul{
+            position: relative;
+            left:50px;
+            top:30px;
+        }
+        ul>li{
+            float:left;
+            margin-right:20px;
+            position: relative;
+        }
+        ul>li::before{
+            content:'';
+            display:block;
+            width:1px;
+            height:14px;
+            background-color: crimson;
+
+            position: absolute;
+            left:-10px;
+            top:3px;
+        }
+        ul>li:first-child::before{
+            /*첫번째 li의 before*/
+            display:none;
+        }
+        ul>li>a{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div id="bottom-menu">
+        <ul>
+            <li><a href="#">G마켓소개</a></li>
+            <li><a href="#">채용정보</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">청소년보호정책</a></li>
+            <li><a href="#">전자금융거래약관</a></li>
+            <li><a href="#">광고안내</a></li>
+        </ul>
+    </div>
+</body>
+</html>

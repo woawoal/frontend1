@@ -1,0 +1,16 @@
+# 주요 태그
+HTML : div, span, ol, ul, li, a, img, form, input
+CSS : display, float, position, margin, padding
+
+이미지 경로 설정, 이미지 스프라이트 등..
+
+# 배운것 
+- 폰트 어썸
+- 오디오, 비디오, iframe (유튜브, 플레이어, 카카오tv, 구글지도..)
+
+----
+
+div{
+    display: block; // 이렇게 block만 줘도 static이 자동적용되어 있는 상태
+    // position: static;
+}

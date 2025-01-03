@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+        }
+        #my-div1{ /* 아이디 선택자 */
+            background-color: blue;
+            padding-left: 50px; /* 위쪽 내부 간격, 패딩은 충전재라고 생각 박스 내부가 밀린다. */
+            margin-left: 50px;
+            box-sizing: border-box;
+            /* 박스 크기 계산하는 속성 : 경계선이나, 패딩을 박스 내부 크기에 포함 */
+            /* 예: 뱃살을 바지안에 쑤셔넣는다 */
+            /* 패딩때문에 박스크기가 늘어나는 것 방지, 주로 패딩과 같이 적어줌 */
+        }
+    </style>
+<body>
+    <!-- divide : 나누다 / division : 구역 -->
+     <div id="my-div1">
+        구역
+     </div>
+</body>
+</html>

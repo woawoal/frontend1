@@ -1,0 +1,25 @@
+#header>#logo>a{
+    position: relative;
+    top:25px;
+}
+
+#nav>ul{
+    float: right;
+    position: relative;
+    top:20px;
+    right:20px;
+}
+
+#nav>ul>li{
+    float: left;
+}
+
+#nav>ul>li>a{
+    display:block;
+    width:150px;
+    height:50px;
+    background-color: palevioletred;
+    text-align: center;
+    padding-top:15px;
+    box-sizing: border-box;
+}

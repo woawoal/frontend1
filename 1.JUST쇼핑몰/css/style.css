@@ -1,0 +1,92 @@
+*{
+    /* 모든요소 간격 제거 */
+    margin: 0;
+    padding: 0;
+}
+
+#wrap{
+    width: 1200px;
+    height: 700px;
+    background-color: aqua;
+    margin: 0 auto; /* 가운데 정렬 */
+}
+
+#header{
+    width: 1200px;
+    height: 100px;
+    background-color: blue;
+}
+
+#hearder>#logo{
+    float: left;
+    width: 200px;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+#nav{
+    float: right;
+    width: 1000px;
+    height: 100px;
+    background-color: cadetblue;
+}
+
+#slide{
+    width: 1200px;
+    height: 300px;
+    background-color: antiquewhite;
+}
+
+#contents{
+    width: 1200px;
+    height: 300px;
+    background-color: burlywood;
+}
+
+#cont1{
+    float: left;
+    width: 360px;
+    height: 200px;
+    background-color: chartreuse;
+}
+
+#cont2{
+    float: left;
+    width: 360px;
+    height: 200px;
+    background-color: chocolate;
+}
+
+#cont3{
+    float: left;
+    width: 360px;
+    height: 200px;
+    background-color: cornflowerblue;
+}
+
+#footer{
+    width: 1200px;
+    height: 100px;
+    background-color: darkorchid;
+}
+
+#footer>#logo{
+    float: left;
+    width: 200px;
+    height: 100px;
+    background-color: darkblue;
+}
+
+#copyright{
+    float: left;
+    width: 800px;
+    height: 100px;
+    background-color: darkcyan;
+}
+
+#sns{
+    float: left;
+    width: 200px;
+    height: 100px;
+    background-color: darkgoldenrod;
+}   
